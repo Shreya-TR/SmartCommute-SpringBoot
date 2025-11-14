@@ -7,7 +7,69 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SmartCommuteBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartCommuteBackendApplication.class, args);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        SpringApplication.run(SmartCommuteBackendApplication.class, args);
 	}
 
 }

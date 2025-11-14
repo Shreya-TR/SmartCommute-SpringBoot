@@ -3,12 +3,19 @@ package com.smartcommute.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 
 @Entity
+@Table(name = "bus_locations")
 public class BusLocation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Min(1)
 
     private int busId;
     private double latitude;
@@ -59,6 +66,8 @@ public class BusLocation {
     public void setBusRoute(String busRoute) {
         this.busRoute = busRoute;
     }
+
+
 }
 //package com.smartcommute.entity;
 //
